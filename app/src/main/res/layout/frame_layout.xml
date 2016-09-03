@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg"
+        android:foreground="@drawable/apple_icon_114x114"
+        android:foregroundGravity="bottom|right"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center"
+        android:text="ApnaTutorials.com"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+</FrameLayout>
